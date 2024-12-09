@@ -1,0 +1,5 @@
+Key Aspects:
+The program uses simple if-elif-else conditional statements to evaluate eligibility.
+User input is handled through the input() function, and integer values are expected for the various checks.
+The project is interactive, requiring user responses at each step.
+If the user passes all criteria, they receive a "certificate" with their name on it.
