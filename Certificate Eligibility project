@@ -1,0 +1,41 @@
+print("--------------Certificate Eligibility project-----------------")
+data=int(input(" Are You Attend Every Class (Yes=1 or No=2)"))
+if(data==1):
+    print("Amazing, You Attend Classes Right. We Move to Next Verification.")
+elif(data==2):
+    print("You Are Not eligible")
+else:                                  #Code By Tanishq Kr Vishwakarma
+    print("Invalid Input")
+assignment= int(input("Complete Your assignment or not(yes=1 or No ==2)"))
+if(assignment==1):
+        print("Great , You Complete Your Assignment. We Move to Next Verification.")
+elif(assignment==2):
+    print("Not Eligible For certification ")
+else:
+        print("Invalid Input")
+liveclasses= int(input("Take Daily Live classes or not(Yes=1 or No ==2)"))
+if(liveclasses==1):
+    print("Amzing , You Complete Your Daily Live classess. We Move to Next Verification. ")
+                                            #Code By Tanishq Kr Vishwakarma
+elif(liveclasses==2):
+    print("Not Eligible For certification ")
+else:
+    print("Invalid Input")
+
+camera_on=int(input("Is you Camera is On In Live Classes? (Yes=1 or No =2)"))
+if(camera_on==1):
+    print(" Great , You select That your Camera is ON. We Move to Next Verification. ")
+elif(camera_on==2):
+    print("Not Eligible For certification ")
+else:                                               #Code By Tanishq Kr Vishwakarma
+        print("Not Eligible For certification ")
+print("_________________Final Page______________________")
+print("Congratulation , You Are eligible for certification.")
+name=input("Enter Your NAME :")
+print("--------------------Certication--------------------------------------")
+print(f" Certificate awarded to {name} for successfully completing. \n 5 day Python class on 18-09-2023 to 22 -09-2023. \nYour dedication and hard work are recognized and celebrated. ") 
+print("--------------------------------------------------------------------------")   
+print("Thankyou")
+
+
+#Code By Tanishq Kr Vishwakarma
