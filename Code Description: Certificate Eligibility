@@ -1,0 +1,37 @@
+This Python script is a basic "Certificate Eligibility" project that evaluates whether a user is eligible for certification based on multiple criteria. It follows a step-by-step verification process with user inputs to decide the eligibility. Here's a breakdown of the functionality:
+
+Project Introduction:
+
+The program begins by printing a title to introduce the purpose of the project.
+The title clearly states that it is a "Certificate Eligibility" project.
+Class Attendance Check:
+
+The user is asked whether they attended all the classes.
+Input options: 1 for Yes, 2 for No.
+If the user attended (input 1), it moves to the next step. If not (input 2), they are declared ineligible. Any other input is marked as invalid.
+Assignment Completion Check:
+
+After the class attendance check, the user is asked if they completed their assignment.
+Input options: 1 for Yes, 2 for No.
+If the assignment is completed (input 1), the next check is conducted. Otherwise, the user is marked ineligible.
+Live Classes Check:
+
+The program then asks whether the user attended daily live classes.
+Input options: 1 for Yes, 2 for No.
+A correct response (input 1) moves the user forward; otherwise, they are deemed ineligible.
+Camera On Check:
+
+Finally, the program asks if the user's camera was on during live classes.
+Input options: 1 for Yes, 2 for No.
+If the camera was on (input 1), the user proceeds; otherwise, they become ineligible.
+Final Confirmation:
+
+If the user successfully passes all checks, a final page is printed congratulating them for being eligible for the certificate.
+The user is prompted to enter their name for the certificate.
+Certificate Display:
+
+The script generates a simple certificate with the user's name, showing the successful completion of a Python class from specific dates (e.g., 18-09-2023 to 22-09-2023).
+A final "Thank you" message is printed.
+Code Author Credit:
+
+The code is credited to "Tanishq Kr Vishwakarma" at various points throughout the program.
